@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #05C756;
+    --color-info: #D9D9D9;
+    --color-danger: #FF0000;
+    font-family: 'Prompt', sans-serif;
+  }
+  #app {
+    width: 100%;
+  }
+}
